@@ -115,4 +115,8 @@ A partir de las preguntas de negocio planteadas en el punto anterior identificam
 2)	Quantity_Clients: Cantidad de clientes atendidos durante el mes.
 3)	Quantity_Sale_Products: Cuáles son los productos más y menos demandados.
 
+## Creación de ETL en Pentaho
 
+El proceso de ETL se encargará de extraer, transformar y cargar la información en la base de datos OLAP. 
+
+Fue creado en Pentaho, una plataforma de inteligencia empresarial (BI) “orientada a la solución” y “centrada en procesos” que incluye todos los principales componentes requeridos para implementar soluciones basadas en procesos tal como ha sido concebido desde el principio.
