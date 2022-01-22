@@ -122,20 +122,24 @@ El proceso de ETL se encargará de extraer, transformar y cargar la información
 Fue creado en Pentaho, una plataforma de inteligencia empresarial (BI) “orientada a la solución” y “centrada en procesos” que incluye todos los principales componentes requeridos para implementar soluciones basadas en procesos tal como ha sido concebido desde el principio.
 
 <div align="center">
-    <img src="Capturas ETL/ETL - terminado exitoso.png"> </img> 
-   <i> Figura 3 - ETL Completo </i>
+    <img src="Capturas ETL/ETL - terminado exitoso.png" width="800px"> </img> 
+   <br><i> Figura 3 - ETL Completo </i>
 </div>
 
 **Limpieza de datos:** Su objetivo es el de realizar diferentes tipos de acciones con la finalidad de solucionar problemas con datos erróneos, inconsistentes o irrelevantes.
-<div align="center">
-    <img src="Capturas ETL/Limpiar Dimensiones exitoso.png"> </img> 
-   <i> Figura 4 - Limpieza de tablas Dimensiones </i>
-</div>
 
+<div align="center">
+    <img src="Capturas ETL/Limpiar Dimensiones exitoso.png" width="800px"> </img> 
+   <br><i> Figura 4 - Limpieza de tablas Dimensiones </i>
+</div>
+<br>
 Una vez limpiadas las tablas de dimensiones procedemos a limpiar la tabla de hechos.
+<br>
 <div align="center">
-    <img src="Capturas ETL/Limpiar tabla_Hechos exitoso.png"> </img> 
-   <i> Figura 5 - Limpieza de tabla Hechos </i>
+  <i>Figura 5 - Limpieza de tabla Hechos </i> 
+</div>
+<div align="center">
+    <img src="Capturas ETL/Limpiar tabla_Hechos exitoso.png" ></img>  
 </div>
 
-
+Después de la limpieza se procede al llenado de las tablas de dimensiones
