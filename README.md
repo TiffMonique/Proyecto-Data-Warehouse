@@ -22,5 +22,10 @@ La base de datos OLTP se diseñó utilizando un modelo entidad-relación, el cua
 
 A continuación, el siguiente diagrama representa el modelo entidad-relación de la Base de datos OLTP.
 
+<div align="center">
+    <img src="Diagramas/Diagrama BD .png"> </img> 
+</div>
+
+
 
 
