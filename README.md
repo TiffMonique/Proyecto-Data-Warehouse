@@ -31,12 +31,27 @@ Así como los sistemas OLTP son típicos para bases de datos convencionales y da
 Se utilizó el **modelo en estrella** para la creación de nuestra base de datos OLAP.<br>
 Las tablas de dimensiones utilizadas fueron cinco y se llamaron de la siguiente forma (Dim Nombre). 
 Se realizaron las uniones correspondientes entre la tabla de hechos y las tablas de dimensiones. <br>
-Las tablas de dimensiones: 
+**Las tablas de dimensiones:**
 -	Dim Products, 
 -	Dim Employees ,
 -	Dim Customers,
 -	Dim Time. <br>
-En base a las preguntas del negocio y a la métrica (las cuales se definen en el siguiente enunciado) se determinó que la tabla de Hechos se llamará Hechos Ordenes.
+En base a las preguntas del negocio y a la métrica (las cuales se definen en el siguiente enunciado) se determinó que la tabla de Hechos se llamará **Hechos Orders Sales.**<br>
+**Campos de Dimensiones:**
+Dimensión Products:
+-	Product_ID.
+-	Product_name.
+-	Product_size.
+-	Product_price.
+-	Product Category.
+
+Dimensión Employees:
+-	Employee_ID.
+-	Employee_FullName.
+Dimensión Customers:
+-	Customer_ID.
+-	Customer_FullName. 
+
 
 
 
