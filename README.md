@@ -126,4 +126,16 @@ Fue creado en Pentaho, una plataforma de inteligencia empresarial (BI) “orient
    <i> Figura 3 - ETL Completo </i>
 </div>
 
+**Limpieza de datos:** Su objetivo es el de realizar diferentes tipos de acciones con la finalidad de solucionar problemas con datos erróneos, inconsistentes o irrelevantes.
+<div align="center">
+    <img src="Capturas ETL/Limpiar Dimensiones exitoso.png"> </img> 
+   <i> Figura 4 - Limpieza de tablas Dimensiones </i>
+</div>
+
+Una vez limpiadas las tablas de dimensiones procedemos a limpiar la tabla de hechos.
+<div align="center">
+    <img src="Capturas ETL/Limpiar tabla_Hechos exitoso.png"> </img> 
+   <i> Figura 5 - Limpieza de tabla Hechos </i>
+</div>
+
 
