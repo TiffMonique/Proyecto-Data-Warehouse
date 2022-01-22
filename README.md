@@ -85,8 +85,8 @@ Campos Tabla de Hechos:
 
 
 <div align="center">
-    <img src="Diagramas/Diagrama Modelo en Estrella - Restaurante Samogi.png"> </img> 
-   <i> Figura 2 - Base de datos OLAP - Data Mart</i>
+    <img src="Diagramas/Diagrama Modelo en Estrella - Restaurante Samogi.png" width="800px"> </img> 
+   <br><i> Figura 2 - Base de datos OLAP - Data Mart</i>
 </div>
 
 _______________________
