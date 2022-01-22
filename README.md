@@ -170,3 +170,10 @@ Cuando las tablas se han llenado se procede a comprobar el éxito de nuestro ETL
     <img src="Capturas ETL/ETL - terminado exitoso.png" width="570px"> </img> 
    <br><i> Figura 8 - ETL Completado con éxito</i>
 </div>
+
+## Creación de Reportes Tableau Desktop
+Para la creación de los informes utilizamos Tableau desktop ya que Tableau server pide muchos requerimientos que nuestras computadoras no cumplen.<br>
+Tableau es una herramienta de Inteligencia de Negocios que permite analizar, visualizar y compartir grandes volúmenes de información en forma rápida, flexible y amigable. Tableau se destaca por su flexibilidad y rapidez tanto en el procesamiento de los datos, como en la obtención de resultados. Según se necesiten, se pueden ir agregando y cambiando parámetros, añadir puntos de referencia o tendencias y otros elementos que enriquezcan el análisis a realizar. Esto permite que quien lo use, lo haga en forma independiente, liberando recursos del área de sistemas.<br><br>
+Ahora podremos realizar análisis con la información y múltiples cantidades de reportes que nos muestran los resultados de la exploración de los datos.<br>
+A continuación, se mostrarán algunos de esos análisis:<br>
+
