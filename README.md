@@ -163,10 +163,10 @@ Una vez que habíamos llenado la tabla de dimensiones. Fue posible llenar la tab
 <div align="center">
     <img src="Capturas ETL/imagen 4 -tabla hechos.png" width="570px"> </img> 
    <br><i> Figura 7 - Llenar tabla Hechos </i>
-</div>
+</div><br>
 
 Cuando las tablas se han llenado se procede a comprobar el éxito de nuestro ETL.
 <div align="center">
     <img src="Capturas ETL/ETL - terminado exitoso.png" width="570px"> </img> 
-   <br><i> Figura 8 - ETL Completado con exito</i>
+   <br><i> Figura 8 - ETL Completado con éxito</i>
 </div>
