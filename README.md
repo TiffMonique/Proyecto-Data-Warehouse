@@ -120,3 +120,10 @@ A partir de las preguntas de negocio planteadas en el punto anterior identificam
 El proceso de ETL se encargará de extraer, transformar y cargar la información en la base de datos OLAP. 
 
 Fue creado en Pentaho, una plataforma de inteligencia empresarial (BI) “orientada a la solución” y “centrada en procesos” que incluye todos los principales componentes requeridos para implementar soluciones basadas en procesos tal como ha sido concebido desde el principio.
+
+<div align="center">
+    <img src="Capturas ETL/ETL - terminado exitoso.png"> </img> 
+   <i> Figura 3 - ETL Completo </i>
+</div>
+
+
