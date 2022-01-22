@@ -207,6 +207,31 @@ A continuación, se mostrarán algunos de esos análisis:<br>
 <div align="center">
     <img src="Reportes y Dashboards en Tableau/Capturas/Reporte6.png" width="570px"> </img> 
    <br><i> Figura 14 - Monto total generado por mes.</i>
+</div><br>
+
+_____________________
+
+## Recursos 
+- [Oracle 11g express](https://mega.nz/file/tkFXTQoR#__Px5kB4Da5EZk-rE-KJ1K3JQzunQP2OJQ8uaACI7Ws) 
+- [SQL Server Management Studio](https://docs.microsoft.com/en-us/sql/ssms/download-sql-server-management-studio-ssms?view=sql-server-ver15) 
+- [SqlDeveloper edición portable](https://mega.nz/file/p58WkRAQ#iD4w3g4XSgJPCr10vZidae-IBcpi_UIRNScL5OrU_7c) 
+- [Descarga de Pentaho](https://drive.google.com/file/d/1YxZfSMdk_f4fCKbe93yh278RNzQIMkBK/view) 
+- [Tableau Desktop](https://www.tableau.com/products/desktop) 
+
+
+_____________________
+_________
+
+<div align="center">
+ 
+  <p>Facultad de Ingeniería</p>
+  <p>Departamento de Ingeniería en Sistemas</p>
+  <img src="https://dircom.unah.edu.hn/dmsdocument/7509-unah-version-horizontal-png" width="200px"></img> 
 </div>
-<br>
+
+______
+<div align="center">
+ Made with ❤️ by <a href="https://github.com/TiffMonique" >TiffMonique</a>😊
+
+</div>
 
