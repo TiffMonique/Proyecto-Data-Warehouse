@@ -136,10 +136,8 @@ Fue creado en Pentaho, una plataforma de inteligencia empresarial (BI) “orient
 Una vez limpiadas las tablas de dimensiones procedemos a limpiar la tabla de hechos.
 <br>
 <div align="center">
+  <img src="Capturas ETL/Limpiar tabla_Hechos exitoso.png" ></img>  <br>
   <i>Figura 5 - Limpieza de tabla Hechos </i> 
 </div>
-<div align="center">
-    <img src="Capturas ETL/Limpiar tabla_Hechos exitoso.png" ></img>  
-</div>
-
+<br>
 Después de la limpieza se procede al llenado de las tablas de dimensiones
