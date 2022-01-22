@@ -100,6 +100,7 @@ Es necesario conocer el id y nombre completo del empleado que hace la entrega.
 3)	Se desea conocer el día de la semana (conteo) que representa mayor consumo. 
 4)	Se desea conocer la cantidad de clientes atendidos en base al mes. 
 5)	Se desea conocer los productos que más y menos se han vendido en el restaurante. Es necesario mostrar el nombre, id del producto categoría y precio.
+__________
 
 ## Explicación de métrica utilizada
 
@@ -114,6 +115,8 @@ A partir de las preguntas de negocio planteadas en el punto anterior identificam
 1)	Total_Amount: Monto total de una orden (se debe multiplicar el precio del producto por el número de unidades). 
 2)	Quantity_Clients: Cantidad de clientes atendidos durante el mes.
 3)	Quantity_Sale_Products: Cuáles son los productos más y menos demandados.
+
+_____________
 
 ## Creación de ETL en Pentaho
 
@@ -146,3 +149,12 @@ Después de la limpieza se procede al llenado de las tablas de dimensiones
     <img src="Capturas ETL/Llenar tablas Dimensiones exitoso.png" width="570px"> </img> 
    <br><i> Figura 6 - Llenar tablas Dimensiones </i>
 </div>
+<br>
+
+Una vez que habíamos llenado la tabla de dimensiones. Fue posible llenar la tabla de hechos que depende de las tablas de dimensiones.
+
+<div align="center">
+    <img src="Capturas ETL/imagen 4 -tabla hechos.png" width="570px"> </img> 
+   <br><i> Figura 7 - Llenar tabla Hechos </i>
+</div>
+
