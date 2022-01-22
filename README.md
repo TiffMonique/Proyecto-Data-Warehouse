@@ -171,9 +171,42 @@ Cuando las tablas se han llenado se procede a comprobar el éxito de nuestro ETL
    <br><i> Figura 8 - ETL Completado con éxito</i>
 </div>
 
+________
 ## Creación de Reportes Tableau Desktop
 Para la creación de los informes utilizamos Tableau desktop ya que Tableau server pide muchos requerimientos que nuestras computadoras no cumplen.<br>
 Tableau es una herramienta de Inteligencia de Negocios que permite analizar, visualizar y compartir grandes volúmenes de información en forma rápida, flexible y amigable. Tableau se destaca por su flexibilidad y rapidez tanto en el procesamiento de los datos, como en la obtención de resultados. Según se necesiten, se pueden ir agregando y cambiando parámetros, añadir puntos de referencia o tendencias y otros elementos que enriquezcan el análisis a realizar. Esto permite que quien lo use, lo haga en forma independiente, liberando recursos del área de sistemas.<br><br>
 Ahora podremos realizar análisis con la información y múltiples cantidades de reportes que nos muestran los resultados de la exploración de los datos.<br>
 A continuación, se mostrarán algunos de esos análisis:<br>
+
+<div align="center">
+    <img src="Reportes y Dashboards en Tableau/Capturas/Reporte1.png" width="570px"> </img> 
+   <br><i> Figura 9 - Cantidad de productos vendidos por mes.</i>
+</div>
+<br>
+
+<div align="center">
+    <img src="Reportes y Dashboards en Tableau/Capturas/Reporte2.png" width="570px"> </img> 
+   <br><i> Figura 10 - Cantidad de productos vendidos en el año.</i>
+</div>
+<br>
+<div align="center">
+    <img src="Reportes y Dashboards en Tableau/Capturas/Reporte3.png" width="570px"> </img> 
+   <br><i> Figura 11 - Monto total por un cliente en un trimestre.</i>
+</div>
+<br>
+<div align="center">
+    <img src="Reportes y Dashboards en Tableau/Capturas/Reporte4.png" width="570px"> </img> 
+   <br><i> Figura 12 - Cantidad de Clientes atendidos por mes.</i>
+</div>
+<br>
+<div align="center">
+    <img src="Reportes y Dashboards en Tableau/Capturas/Reporte5.png" width="570px"> </img> 
+   <br><i> Figura 13 - Cantidad de productos distribuidos por cada transportista.</i>
+</div>
+<br>
+<div align="center">
+    <img src="Reportes y Dashboards en Tableau/Capturas/Reporte6.png" width="570px"> </img> 
+   <br><i> Figura 14 - Monto total generado por mes.</i>
+</div>
+<br>
 
