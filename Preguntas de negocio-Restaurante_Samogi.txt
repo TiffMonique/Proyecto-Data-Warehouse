@@ -1,0 +1,26 @@
+ CREACIÓN DE DATA MART
+
+ 
+Preguntas de Negocio:
+El restaurante Samogi desea conocer lo siguiente:
+1) Se desea conocer el monto total de ventas en las entregas de platos en base a los empleados. 
+Es necesario conocer el id y nombre completo del empleado que hace la entrega. 
+2) Las ventas deben analizarse por mes,trimestre,semestre (tiempo). 
+3) Se desea conocer el día de la semana (conteo) que representa mayor consumo. 
+4) Se desea conocer la cantidad de clientes atendidos en base al mes. 
+5) Se desea conocer los productos que mas y menos se han vendido al restaurante. Es necesario
+mostrar el nombre, id del producto, categoria y precio(qty venta). 
+
+ Métricas
+1) Monto total <- Monto total de una orden (se debe multiplicar el precio del producto por el
+número de unidades). 
+2)Cantidad de clientes <- Cantidad de clientes atendidos durante el més
+3) QTY venta <- Cuales son los productos más y menos demandados.
+
+TABLAS DE DIMENSIONES: 
+
+Tablas de dimensión y sus campos:
+1)EMPLOYEES (id y nombre completo)
+2)CUSTOMERS (id y nombre completo)
+3)PRODUCTS (id, nombre del producto, categoría, precio)
+4)TIEMPO (id tiempo, mes,trimestre,semestre y día de la semana)
