@@ -141,3 +141,8 @@ Una vez limpiadas las tablas de dimensiones procedemos a limpiar la tabla de hec
 </div>
 <br>
 Después de la limpieza se procede al llenado de las tablas de dimensiones
+
+<div align="center">
+    <img src="Capturas ETL/Llenar tablas Dimensiones exitoso.png" width="570px"> </img> 
+   <br><i> Figura 6 - Llenar tablas Dimensiones </i>
+</div>
