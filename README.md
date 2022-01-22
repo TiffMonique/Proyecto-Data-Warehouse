@@ -24,6 +24,7 @@ A continuación, el siguiente diagrama representa el modelo entidad-relación de
 
 <div align="center">
     <img src="Diagramas/Diagrama BD .png"> </img> 
+     <i> Figura 1 - Base de Datos OLTP</i>
 </div>
 
 ### Base de datos OLAP
@@ -59,6 +60,59 @@ Dimensión Customers:
 -	Customer_FullName. 
 
 
+Después de haber definido las tablas dimensionales del cubo, queda definir la tabla dimensional de time, la cual siempre debe ir en todo modelo de DWH. Los campos que tiene determinada tabla dimensional dependen de las necesidades del negocio. Para este caso se decidió la siguiente división de tiempo.
 
+Dimensión Time:
+
+-	Time_ID.
+-	Month.
+-	Trimester.
+-	Semester.
+-	Week_day.
+
+Por último, queda definir la tabla de hechos. Esta tabla contiene los id de las tablas dimensionales y las métricas, las cuales se utilizarán para la medición que proporcionan los datos del cubo. 
+
+Campos Tabla de Hechos:
+
+-	Hecho_ID (Llave primaria, valor autoincremental)
+-	Product_ID
+-	Employee_ID
+-	Customer_ID.
+-	Time_ID.
+-	Total_Amount  (métrica).
+-	Quantity_Clients (métrica).
+-	Quantity_Sale_Products (métrica).
+
+
+<div align="center">
+    <img src="Diagramas/Diagrama Modelo en Estrella - Restaurante Samogi.png"> </img> 
+   <i> Figura 2 - Base de datos OLAP - Data Mart</i>
+</div>
+
+_______________________
+
+## Preguntas del negocio
+
+El restaurante Samogi desea conocer lo siguiente:
+1)	Se desea conocer el monto total de ventas en las entregas de platillos en base a los empleados. 
+Es necesario conocer el id y nombre completo del empleado que hace la entrega. 
+2)	Las ventas deben analizarse por mes, trimestre, semestre (tiempo). 
+3)	Se desea conocer el día de la semana (conteo) que representa mayor consumo. 
+4)	Se desea conocer la cantidad de clientes atendidos en base al mes. 
+5)	Se desea conocer los productos que más y menos se han vendido en el restaurante. Es necesario mostrar el nombre, id del producto categoría y precio.
+
+## Explicación de métrica utilizada
+
+A partir de las preguntas de negocio planteadas en el punto anterior identificamos y decidimos que utilizaremos tres métricas. Dado que como primer objetivo de las preguntas del negocio es el de conocer el monto obtenido a través de las ventas, se creó una primera métrica con el nombre Total_Amount, la segunda métrica identificada está basada en el deseo de conocer la cantidad de clientes atendidos en base al mes, por lo tanto, esa métrica se llamó Quantity_Clients. Y para finalizar la métrica número tres que se estableció para formar parte de las que se utilizarían, fue Quantity_Sale_Products haciendo referencia a los productos que más se han vendido o que menos se han vendido en el restaurante.
+
+-	Se desea conocer el **monto total de ventas** en las entregas de platillos en base a los empleados. Es necesario conocer el id y nombre completo del empleado que hace la entrega. 
+-	Se desea conocer la **cantidad de clientes** atendidos en base al mes. 
+-	Se desea conocer los **productos que más y menos se han vendido** en el restaurante. Es necesario  mostrar el nombre, id del producto categoría y precio.
+
+**Métricas:**
+
+1)	Total_Amount: Monto total de una orden (se debe multiplicar el precio del producto por el número de unidades). 
+2)	Quantity_Clients: Cantidad de clientes atendidos durante el mes.
+3)	Quantity_Sale_Products: Cuáles son los productos más y menos demandados.
 
 
